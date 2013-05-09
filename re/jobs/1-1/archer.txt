@@ -118,8 +118,8 @@ payon_in02,64,71,4	script	Archer#archer	85,{
 		mes "Malgré qu'un Archer dans Ragnarok ait moins de PV, il ou elle a une grande précision et une bonne attaque, ils peuvent donc tuer des monstres avant même que ceux-ci n'approchent.";
 		next;
 		mes "[Archer]";
-		mes "^8C2121Un archer peut changer son métier en Chasseur.^000000";
-		mes "^8C2121Autre que Chasseur, vous pouvez aussi devenir Barde si vous êtes un homme, danceuse si vous êtes une femme.^000000";
+		mes "^8C2121Un Archer peut changer son métier en Chasseur.^000000";
+		mes "^8C2121Autre que Chasseur, vous pouvez aussi devenir Barde si vous êtes un homme, Danceuse si vous êtes une femme.^000000";
 		close;
 	case 3:
 		mes "[Archer]";
