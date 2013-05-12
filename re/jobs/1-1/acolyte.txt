@@ -23,7 +23,7 @@ prt_church,184,41,4	script	Cleric#aco	60,{
 				next;
 				if (getskilllv("NV_BASIC") < 9) {
 					mes "[Père Mareusis]";
-					mes "Malheureusement, je ne pense pas que vous soyez prêt pour devenir Acolyte. Vous devez apprendre toutes les compétences de bases d'abord.";
+					mes "Malheureusement, je ne pense pas que vous soyez prêt pour devenir Acolyte. Vous devez apprendre tous les Basic Skills d'abord.";
 					next;
 					mes "[Père Mareusis]";
 					mes "J'attendrai que vous soyez prêt.";
@@ -74,7 +74,7 @@ prt_church,184,41,4	script	Cleric#aco	60,{
 			next;
 			if (getskilllv("NV_BASIC") < 9) {
 				mes "[Père Mareusis]";
-				mes "Oh mais?! Vous n'avez pas encore acquis les compétences de base ?! Vous avez un long chemin à faire ! Revenez quand vous aurez acquis les compétences !";
+				mes "Oh mais?! Vous n'avez pas encore acquis les Basic Skills ?! Vous avez un long chemin à faire ! Revenez quand vous aurez acquis les compétences nécessaires!";
 				close;
 			}
 			mes "[Père Mareusis]";
@@ -96,7 +96,7 @@ prt_church,184,41,4	script	Cleric#aco	60,{
 		mes "Alors, vous devez remplir certaines exigences, comme si elles venaient elles-même de Dieu.";
 		next;
 		mes "[Père Mareusis]";
-		mes "D'abord, vous devez atteindre au moins, en tant que débutant, le niveau job 9 ainsi qu'apprendre toutes les compétences de base.";
+		mes "D'abord, vous devez atteindre au moins, en tant que débutant, le niveau job 9 ainsi qu'apprendre tous les Basic Skills.";
 		mes "C'est la plus simple des choses à faire, alors considérez ça comme une façon de vous entraîner.";
 		next;
 		mes "[Père Mareusis]";
