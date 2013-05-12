@@ -24,7 +24,7 @@ geffen_in,164,124,4	script	Mage#mage	123,{
 				next;
 				if (getskilllv("NV_BASIC") < 9) {
 					mes "[Mage]";
-					mes "Je suis désolée, mais je ne pense pas que vous soyez prêt à être initié à la magie. Pourquoi ne finissez-vous pas d'apprendre toutes vos compétences de base?";
+					mes "Je suis désolée, mais je ne pense pas que vous soyez prêt à être initié à la magie. Pourquoi ne finissez-vous pas d'apprendre tous vos Basic Skills?";
 					next;
 					mes "[Mage]";
 					mes "Prenez votre temps. Plus vous apprenez, plus vous serez prêt à être initié à la magie.";
@@ -59,7 +59,7 @@ geffen_in,164,124,4	script	Mage#mage	123,{
 			mes "Hey, vous n'avez pas remarqué ? Vous êtes déjà Mage, imbécile!";
 			mes "Un de ces jours vous réaliserez le pouvoir que vous avez en vous quand vous pourrez créer du Feu avec votre esprit!";
 		} else
-			mes "Hey~ Allons. Arrêtez de jouer. Vous ne pouvez pas être Mage car vous avez déjà un autre métier.";
+			mes "Hey~ Allons. Arrêtez de jouer. Vous ne pouvez pas être Mage, vous avez déjà un autre métier.";
 		close;
 	}else{
 		mes "Hey?";
@@ -116,7 +116,7 @@ geffen_in,164,124,4	script	Mage#mage	123,{
 			}
 			next;
 			mes "[Mage]";
-			mes "Tout d'abord, vous devez atteindre, en tant que débutant, le Niveau Job 10 ainsi qu'apprendre toutes les compétences de base.";
+			mes "Tout d'abord, vous devez atteindre, en tant que débutant, le Niveau Job 10 ainsi qu'apprendre touts les Basic Skills.";
 			next;
 			mes "[Mage]";
 			mes "Auparavant, le test de préparation de potions était assez compliqué. A cause de ça, les candidatures se sont faites plus rares.";
