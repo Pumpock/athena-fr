@@ -28,7 +28,7 @@ payon_in02,64,71,4	script	Archer#archer	85,{
 			if (getskilllv("NV_BASIC") < 9) {
 				mes "[Archer]";
 				mes "Err...";
-				mes "Vous devez apprendre toutes les compétences de base avant de pouvoir devenir Archer.";
+				mes "Vous devez apprendre tous les Basic Skills avant de pouvoir devenir Archer.";
 				next;
 				mes "[Archer]";
 				mes "Ok, à plus tard.";
@@ -79,7 +79,7 @@ payon_in02,64,71,4	script	Archer#archer	85,{
 			if (getskilllv("NV_BASIC") < 9) {
 				mes "[Archer]";
 				mes "Eh bien, vous n'avez pas le bon niveau de compétence.";
-				mes "Vous devez atteindre au moins le Niveau Job ^4A4AFF10^000000 et le ^4A4AFFniveau 9^000000 pour vos compétences de base.";
+				mes "Vous devez atteindre au moins le Niveau Job ^4A4AFF10^000000 et le ^4A4AFFniveau 9^000000 pour vos Basic Skills.";
 				next;
 				mes "[Archer]";
 				mes "Car un Archer a besoin d'une extrême concentration, donc nous n'acceptons pas ceux qui ont peu de patience.";
